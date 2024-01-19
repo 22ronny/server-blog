@@ -22,7 +22,7 @@ title: Ronald's Blog
 email: ronald.hrovat@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal blog where I sometimes write some stuff.
-baseurl: "/pbl-blog" # the subpath of your site, e.g. /blog
+baseurl: "/server-blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
