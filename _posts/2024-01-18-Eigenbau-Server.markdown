@@ -30,7 +30,7 @@ Es kombiniert KVM- und Container-basierte Virtualisierung und verwaltet virtuell
 
 [![Bildvorschau](\server-blog\image\serverBig.jpg)](\server-blog\image\serverBig.jpg){:target="_blank"}
 
-## Verwendete LXC (Linux Container)
+## LXC (Linux Container)
 
 ![alternativtext](\server-blog\image\lxc.jpg)
 
@@ -38,7 +38,7 @@ Es kombiniert KVM- und Container-basierte Virtualisierung und verwaltet virtuell
  SMB - Protokoll 
  ZFS Raid-Z1 an Container durchgereicht
 
- ![alternativtext](\server-blog\image\200.jpg)
+![alternativtext](\server-blog\image\200.jpg)
 
 
 ### 202 WireGuard
@@ -51,5 +51,24 @@ In meinem Fall für die Wetteraufzeichnung. Aktuell aber läuft meine Wetteraufz
 ### 204 Grafana
 Grafana ist eine Open-Source-Plattform für die Visualisierung und Überwachung von Daten, die es ermöglicht, Daten aus verschiedenen Quellen in ansprechenden Dashboards darzustellen.
 
- ![alternativtext](\server-blog\image\Grafana.jpg)
+![alternativtext](\server-blog\image\Grafana.jpg)
 
+### 205 adGuard
+Neben dem Blockieren von Anzeigen und Tracking-Elementen verfügt AdGuard über eine DNS-Filterungsfunktion, die schädliche oder unerwünschte Websites blockiert, um die Sicherheit beim Browsen zu erhöhen. Es kann als DNS-Filter verwendet werden, um unerwünschte Inhalte bereits auf DNS-Ebene zu blockieren, bevor sie überhaupt geladen werden.
+
+### 206 Docker
+Docker wird verwendet, um Anwendungen in leichtgewichtigen, isolierten Containern zu verpacken, bereitzustellen und auszuführen, was eine konsistente Umgebung und effiziente Ressourcennutzung ermöglicht.  
+Wird hier nur zum testen verwendet in verbindung mit Portainer. 
+
+![alternativtext](\server-blog\image\Portainer.jpg)
+
+### 208 PostgreSQL
+SQL Datenbank für aktuelle Spring Boot Projekte
+
+![alternativtext](\server-blog\image\Datenbank.jpg)
+
+
+### 216 Projektcontainer
+Für Java Spring Boot projekt
+
+![alternativtext](\server-blog\image\catchbook.jpg)
