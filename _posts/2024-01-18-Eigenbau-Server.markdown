@@ -6,14 +6,14 @@ title: "Eigenbau Server"
 
 ## Vorbereitung
 **Problem 1:**  
-Private Kunden bekommen von Internetbetreibern oft nur Private IP Adressen.  
-Hier ist es nicht möglich von Außerhalb über die Ports ins eigene Netz zuzugreifen.  
-Deshalb musste ich hier erst eine Öffentliche IP Beantragen (Unterschiedlich je nach Betreiber).
+Private Kunden bekommen von Internetbetreibern oft nur private IP-Adressen.  
+Hier ist es nicht möglich von außerhalb über die Ports ins eigene Netz zuzugreifen.  
+Deshalb musste ich hier erst eine öffentliche IP Beantragen (Unterschiedlich je nach Betreiber).
 
 **Problem 2:**  
-Öffentliche IP´s sind nicht Statisch, was heist sie ändern sich ca. alle 24h.  
+Öffentliche IPs sind nicht statisch, was heißt sie ändern sich ca. alle 24h.  
 Für dieses Problem gibt es verschiedene Betreiber wie NO-IP oder Duck DNS.  
-Dorthin wird die gerade aktuelle IP bei änderung übermittelt.
+Dorthin wird die gerade aktuelle IP bei Änderung übermittelt.
 
 
 
@@ -58,7 +58,7 @@ Neben dem Blockieren von Anzeigen und Tracking-Elementen verfügt AdGuard über 
 
 ### 206 Docker
 Docker wird verwendet, um Anwendungen in leichtgewichtigen, isolierten Containern zu verpacken, bereitzustellen und auszuführen, was eine konsistente Umgebung und effiziente Ressourcennutzung ermöglicht.  
-Wird hier nur zum testen verwendet in verbindung mit Portainer. 
+Wird hier nur zum Testen verwendet in Verbindung mit Portainer. 
 
 ![alternativtext](\server-blog\image\Portainer.jpg)
 
@@ -69,6 +69,6 @@ SQL Datenbank für aktuelle Spring Boot Projekte
 
 
 ### 216 Projektcontainer
-Für Java Spring Boot projekt
+Für Java Spring Boot Projekt
 
 ![alternativtext](\server-blog\image\catchbook.jpg)
